@@ -1,0 +1,18 @@
+# Vivado-generated files
+.Xil/
+*.cache/
+*.gen/
+*.runs/
+*.srcs/
+*.xpr
+*.log
+*.jou
+
+# Simulation files
+*.wdb
+*.wcfg
+
+# Other generated files
+*.dcp
+*.bit
+*.bin
