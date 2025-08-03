@@ -51,22 +51,7 @@ This module handles communication between the CPU and the physical I/O on the FP
 The project files are organized as follows:
 
 
-.
-├── sources/
-│   ├── alu.sv
-│   ├── control.sv
-│   ├── cpu.sv
-│   ├── databus_mux.sv
-│   ├── main_reg.sv
-│   ├── memory.sv
-│   ├── processor_top.sv  # Top-level module for synthesis
-│   └── ...               # Other source files
-├── sim/
-│   └── testbench_1.sv    # Primary testbench for simulation
-├── constraints/
-│   └── top.xdc           # Pin constraints for the FPGA board
-└── ip/
-└── blk_mem_gen_0.xci # Configuration for the Block RAM IP
+<pre> ``` . ├── sources/ │ ├── alu.sv │ ├── control.sv │ ├── cpu.sv │ ├── databus_mux.sv │ ├── main_reg.sv │ ├── memory.sv │ ├── processor_top.sv # Top-level module for synthesis │ └── ... # Other source files ├── sim/ │ └── testbench_1.sv # Primary testbench for simulation ├── constraints/ │ └── top.xdc # Pin constraints for the FPGA board └── ip/ └── blk_mem_gen_0.xci # Configuration for the Block RAM IP ``` </pre>
 
 
 ## 💻 Instruction Set Architecture (ISA)
